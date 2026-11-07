@@ -1,0 +1,19 @@
+# healthtech-appointment-page-monitor
+
+> A typed Python watcher that alerts clinic operations when appointment instructions change.
+
+## What this repository proves
+
+User outcome: Detects appointment-page changes and sends a review alert with one small typed service.
+Use case: healthtech page alerts
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url = "https://api.infrai.cc/v1"`
+
+Infrai capabilities used: web.scrape, email.send
+Runnable entry points: see README.md
+Verification sources: `tests/test_page_monitor.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

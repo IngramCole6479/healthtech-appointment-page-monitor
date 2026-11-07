@@ -1,0 +1,1 @@
+"""Healthtech page monitoring example."""
